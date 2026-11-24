@@ -1,19 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#1e3a8a"/>
+      <stop offset="0" stop-color="#5e1834"/>
+      <stop offset="0.55" stop-color="#8c2a4e"/>
+      <stop offset="1" stop-color="#b25678"/>
     </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#e8d6ac" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e8d6ac" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <g fill="none" stroke="#93c5fd" stroke-width="8" stroke-linecap="round" transform="translate(80,150) scale(2.2)">
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1080" cy="560" r="180" fill="none" stroke="#e8d6ac" stroke-opacity="0.18" stroke-width="2"/>
+  <g fill="none" stroke="#e8d6ac" stroke-width="8" stroke-linecap="round" transform="translate(80,150) scale(2.2)">
     <path d="M18 42 Q13 24 24 14"/>
     <path d="M29 44 Q29 22 38 12"/>
     <path d="M40 44 Q45 26 52 16"/>
     <path d="M14 46 Q32 54 54 44" stroke-width="9"/>
   </g>
-  <text x="520" y="300" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" fill="#ffffff">KYHS BEAUTY</text>
-  <text x="524" y="370" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#bfdbfe">False Eyelashes &amp; Beauty Tools</text>
-  <text x="524" y="430" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#93c5fd">Factory-Direct OEM / ODM from China</text>
-  <text x="524" y="560" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#e2e8f0">beauty.kyhsexport.com</text>
+  <text x="520" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="80" font-weight="700" fill="#ffffff">KYHS BEAUTY</text>
+  <text x="524" y="372" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#f0d9a8">False Eyelashes &amp; Beauty Tools</text>
+  <text x="524" y="432" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#f6dfe7">Factory-Direct OEM / ODM from China</text>
+  <text x="524" y="560" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#e8d6ac">beauty.kyhsexport.com</text>
 </svg>

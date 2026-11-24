@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72" role="img" aria-label="KYHS Beauty">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1e3a8a"/>
-      <stop offset="1" stop-color="#2563eb"/>
+      <stop offset="0" stop-color="#6e203c"/>
+      <stop offset="0.6" stop-color="#a83258"/>
+      <stop offset="1" stop-color="#c49a4a"/>
     </linearGradient>
   </defs>
   <g fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round">
@@ -12,6 +13,6 @@
     <path d="M40 46 Q46 24 56 12"/>
     <path d="M16 46 Q36 54 60 46" stroke-width="5"/>
   </g>
-  <text x="76" y="34" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="url(#g)">KYHS</text>
-  <text x="77" y="54" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#64748b">BEAUTY</text>
+  <text x="76" y="34" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="url(#g)">KYHS</text>
+  <text x="77" y="54" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="4" fill="#c49a4a">BEAUTY</text>
 </svg>
